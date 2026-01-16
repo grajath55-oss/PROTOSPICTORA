@@ -1,0 +1,82 @@
+# =====================
+# ENV / SECRETS
+# =====================
+.env
+.env.*
+*token.json*
+*credentials.json*
+*.pem
+
+# =====================
+# NODE / REACT
+# =====================
+node_modules/
+.pnp
+.pnp.js
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+build/
+dist/
+.out/
+.next/
+coverage/
+
+# =====================
+# PYTHON / FASTAPI
+# =====================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+venv/
+env/
+.venv/
+
+*.sqlite3
+*.db
+
+# =====================
+# UPLOADS / MEDIA
+# =====================
+uploads/
+backend/uploads/
+**/*.zip
+**/*.tar
+**/*.tar.gz
+**/*.tgz
+
+# =====================
+# DATABASE / CACHE
+# =====================
+dump.rdb
+.cache/
+.ipynb_checkpoints/
+
+# =====================
+# IDE / EDITORS
+# =====================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =====================
+# OS FILES
+# =====================
+.DS_Store
+Thumbs.db
+
+# =====================
+# DEPLOYMENT
+# =====================
+.vercel
